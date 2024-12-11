@@ -1,0 +1,18 @@
+train: splits/cluster/train.txt  # Percorso alla cartella delle immagini di training
+val: splits/cluster/test.txt     # Percorso alla cartella delle immagini di validazione
+
+# Number of classes
+nc: 10
+
+# Class names
+names:
+  0: no parking
+  1: no entry
+  2: other
+  3: turn right
+  4: stop
+  5: parking place
+  6: pedestrian crossing
+  7: roundabout
+  8: give way
+  9: no stopping
